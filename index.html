@@ -19,7 +19,7 @@
       height: 100%;
     }
 
-    body { font-family: 'MyriadProBoldCond', sans-serif; padding: 10px; }
+    body { font-family: 'MyriadProBoldCond', sans-serif; padding: 10px; background: #a50000;}
 
     .preview-wrapper {
       zoom: 37%;
@@ -79,6 +79,7 @@
       border: 1px solid #ccc;
       padding: 8px;
       font-size: 16px;
+      background: #fff;
     }
 
     [contenteditable][data-placeholder]:empty:before {
@@ -155,7 +156,7 @@
       z-index: 55; position: absolute; left: 0; top: 0;
     }
 
-    .giga-wrapper { display: flex; min-width: 700px; gap: 20px; }
+    .giga-wrapper { display: flex; min-width: 700px; gap: 20px; flex-direction: column;}
     body > div > div:nth-child(1) > label { display: block; }
 
     #html-input [style*="font-size"] { font-size: inherit !important; }
